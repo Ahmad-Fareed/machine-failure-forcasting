@@ -1,0 +1,8 @@
+Config,Precision,Recall,F1,PR_AUC,Accuracy
+Baseline (Original Paper),0.6648,0.6182,0.6407,0.7126,0.604
++ Feature Engineering,0.6685,0.6497,0.659,0.7133,0.616
++ Sampling (Random Undersample),0.6635,0.6112,0.6363,0.7061,0.601
++ Threshold (0.17),0.5895,0.986,0.7379,0.7126,0.6
+Decision Tree (t=0.37),0.5982,0.9387,0.7307,0.6519,0.605
+COMBINED (FE + Thresh 0.13),0.5921,0.9912,0.7413,0.7133,0.605
+COMBINED NN (FE + Thresh 0.1),0.571,1.0,0.7269,0.5722,0.571
